@@ -4,8 +4,6 @@ import java.util.Scanner;
 public class Rock {
     private double weight;
 
-    //konstruktor för vikt för att spara den i variabeln weight
-
     public Rock(double w){
         this.weight = w;
     }
