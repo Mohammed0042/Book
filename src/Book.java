@@ -1,6 +1,6 @@
 public class Book {
-    public String Name;
-    public int Pages;
+    private String Name;
+    private int Pages;
    // currentpage var public innan
     private int currentPage;
     public Book(String n,int P){
@@ -19,9 +19,18 @@ public void TurnPage(){
 
         public int getCurrentPage(){
         return currentPage;
+
         }
 
-        public static void main(String[]args) {
+    public String getName() {
+        return Name;
+    }
+
+    public int getPages() {
+        return Pages;
+    }
+
+    public static void main(String[]args) {
 
             Book book1 = new Book("Diary Of A Wimpy Kid", 300);
             Book book2 = new Book("Harry Potter", 400);
