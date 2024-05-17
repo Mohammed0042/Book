@@ -69,3 +69,4 @@ class WhiteCollar extends Worker {
 
 
 
+
