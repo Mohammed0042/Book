@@ -3,9 +3,9 @@ public class Book {
     public int Pages;
    // currentpage var public innan
     private int currentPage;
-    public Book(String Name,int Pages){
-        this.Name = Name;
-        this.Pages = Pages;
+    public Book(String n,int P){
+        this.Name = n;
+        this.Pages = P;
         this.currentPage = 0;
     }
 public void TurnPage(){
