@@ -1,8 +1,8 @@
 public class Book {
     public String Name;
     public int Pages;
-    public int currentPage;
-
+   // currentpage var public innan
+    private int currentPage;
     public Book(String Name,int Pages){
         this.Name = Name;
         this.Pages = Pages;
@@ -15,6 +15,10 @@ public void TurnPage(){
         else {
             System.out.println("Du har läst alla sidor");
         }
+        }
+
+        public int getCurrentPage(){
+        return currentPage;
         }
 
         public static void main(String[]args) {
